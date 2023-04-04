@@ -10,6 +10,8 @@ https://ip.blackhole.monster/blackhole
 https://ip.blackhole.monster/blackhole-today
 ```
 
+How to use?
+----
 To get a fresh and ready-to-deploy auto-ban list of "bad IPs" you can run:
 ```
 sudo su
