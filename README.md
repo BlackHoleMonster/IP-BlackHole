@@ -10,6 +10,12 @@ https://ip.blackhole.monster/blackhole
 
 🚫 TODAY IPs:
 https://ip.blackhole.monster/blackhole-today
+
+🚫 15-DAYS IPs:
+https://ip.blackhole.monster/blackhole-15days
+
+🚫 30-DAYS IPs:
+https://ip.blackhole.monster/blackhole-30days
 ```
 
 How to use?
