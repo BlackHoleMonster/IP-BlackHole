@@ -6,16 +6,16 @@ IP.blackhole.monster is an IP blacklist that uses multiple sensors to identify n
 
 ```
 🚫 ALL IPs:
-https://ip.blackhole.monster/blackhole
+https://blackhole.s-e-r-v-e-r.pw/blackhole
 
 🚫 TODAY IPs:
-https://ip.blackhole.monster/blackhole-today
+https://blackhole.s-e-r-v-e-r.pw/blackhole-today
 
 🚫 15-DAYS IPs:
-https://ip.blackhole.monster/blackhole-15days
+https://blackhole.s-e-r-v-e-r.pw/blackhole-15days
 
 🚫 30-DAYS IPs:
-https://ip.blackhole.monster/blackhole-30days
+https://blackhole.s-e-r-v-e-r.pw/blackhole-30days
 ```
 
 How to use?
@@ -26,7 +26,7 @@ sudo su
 apt-get -qq install iptables ipset
 ipset -q flush blackhole
 ipset -q create blackhole hash:net
-for ip in $(curl --compressed https://ip.blackhole.monster/blackhole-today 2>/dev/null | grep -v "#" | grep -v -E "\s[1-2]$" | cut -f 1); do ipset add blackhole $ip; done
+for ip in $(curl --compressed https://blackhole.s-e-r-v-e-r.pw/blackhole-today 2>/dev/null | grep -v "#" | grep -v -E "\s[1-2]$" | cut -f 1); do ipset add blackhole $ip; done
 iptables -D INPUT -m set --match-set blackhole src -j DROP 2>/dev/null
 iptables -I INPUT -m set --match-set blackhole src -j DROP
 ```
@@ -39,7 +39,7 @@ nano /etc/csf/csf.blocklists
 
 Navigate to the end of the file and append the following:
 # IP.blackhole.monster blacklist
-IPBLACKHOLE|3600|0|https://ip.blackhole.monster/blackhole-today
+IPBLACKHOLE|3600|0|https://blackhole.s-e-r-v-e-r.pw/blackhole-today
 
 After you finish editing the file, save it and restart CSF and lfd using:
 csf -ra
