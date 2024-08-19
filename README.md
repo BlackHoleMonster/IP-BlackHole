@@ -38,7 +38,7 @@ Edit CSF blocklist file:
 nano /etc/csf/csf.blocklists
 
 Navigate to the end of the file and append the following:
-# IP.blackhole.monster blacklist
+# IP.blackhole blacklist
 IPBLACKHOLE|3600|0|https://blackhole.s-e-r-v-e-r.pw/blackhole-today
 
 After you finish editing the file, save it and restart CSF and lfd using:
