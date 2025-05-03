@@ -10,12 +10,6 @@ https://blackhole.s-e-r-v-e-r.pw/blackhole
 
 🚫 TODAY IPs:
 https://blackhole.s-e-r-v-e-r.pw/blackhole-today
-
-🚫 15-DAYS IPs:
-https://blackhole.s-e-r-v-e-r.pw/blackhole-15days
-
-🚫 30-DAYS IPs:
-https://blackhole.s-e-r-v-e-r.pw/blackhole-30days
 ```
 
 How to use?
